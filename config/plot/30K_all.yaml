@@ -1,0 +1,144 @@
+group_config:
+  other:
+    legend: ''
+    models:
+      - 'alpaca-7b-reproduced'
+    labels:
+      - 'SFT'
+    color: 'black'
+    marker: 'o'
+  safe_rlhf:
+    legend: 'Safe RLHF'
+    models:
+      - 'beaver-7b-v1.0'
+      - 'beaver-7b-v2.0'
+      - 'beaver-7b-v3.0'
+    labels:
+      - 'v1.0'
+      - 'v2.0'
+      - 'v3.0'
+    color: 'black'
+    marker: 'X'
+  helpful_dpo_safety_dpo:
+    legend: 'SACPO: DPO (H) -> DPO (S)'
+    models:
+      - 'helpful_dpo_safety_dpo_0.1'
+      - 'helpful_dpo_safety_dpo_0.05'
+      - 'helpful_dpo_safety_dpo_0.025'
+      - 'helpful_dpo_safety_dpo_0.01'
+    labels:
+      - '0.1'
+      - '0.05'
+      - '0.025'
+      - '0.01'
+    color: 'red'
+    marker: '>'
+  helpful_dpo_safety_kto:
+    legend: 'SACPO: DPO (H) -> KTO (S)'
+    models:
+      - 'helpful_dpo_safety_kto_0.1'
+      - 'helpful_dpo_safety_kto_0.05'
+      - 'helpful_dpo_safety_kto_0.025'
+      - 'helpful_dpo_safety_kto_0.01'
+    labels:
+      - '0.1'
+      - '0.05'
+      - '0.025'
+      - '0.01'
+    color: 'orange'
+    marker: 'v'
+  helpful_kto_safety_dpo:
+    legend: 'SACPO: KTO (H) -> DPO (S)'
+    models:
+      - 'helpful_kto_safety_dpo_0.1'
+      - 'helpful_kto_safety_dpo_0.05'
+      - 'helpful_kto_safety_dpo_0.025'
+      - 'helpful_kto_safety_dpo_0.01'
+    labels:
+      - '0.1'
+      - '0.05'
+      - '0.025'
+      - '0.01'
+    color: 'olive'
+    marker: '<'
+  safety_dpo_helpful_dpo:
+    legend: 'SACPO: DPO (S) -> DPO (H)'
+    models:
+      - 'safety_dpo_helpful_dpo_0.1'
+      - 'safety_dpo_helpful_dpo_0.05'
+      - 'safety_dpo_helpful_dpo_0.025'
+      - 'safety_dpo_helpful_dpo_0.01'
+    labels:
+      - '0.1'
+      - '0.05'
+      - '0.025'
+      - '0.01'
+    color: 'teal'
+    marker: '^'
+  linear_merging:
+    legend: 'P-SACPO'
+    models:
+      - 'linear_0.25'
+      - 'linear_0.5'
+      - 'linear_0.75'
+    labels:
+      - '0.25'
+      - '0.5'
+      - '0.75'
+    color: 'green'
+    marker: 's'
+  naive_merging:
+    legend: 'Naive linear merging'
+    models:
+      - 'naive_0.25'
+      - 'naive_0.5'
+      - 'naive_0.75'
+    labels:
+      - '0.25'
+      - '0.5'
+      - '0.75'
+    color: 'purple'
+    marker: 'D'
+  one_step:
+    legend: 'One-step alignment'
+    models:
+      - 'helpful_dpo_0.1'
+      - 'helpful_kto_0.1'
+      - 'safety_dpo_0.01'
+    labels:
+      - 'DPO (H)'
+      - 'KTO (H)'
+      - 'DPO (S)'
+    color: 'blue'
+    marker: 'o'
+subplot_config:
+  1:
+    title: '(a)'
+    groups:
+      - other
+      - safe_rlhf
+      - one_step
+      - helpful_dpo_safety_dpo
+      - helpful_dpo_safety_kto
+      - helpful_kto_safety_dpo
+  2:
+    title: '(b)'
+    groups:
+      - other
+      - safe_rlhf
+      - helpful_dpo_safety_dpo
+      - safety_dpo_helpful_dpo
+    models:
+      - helpful_dpo_0.1
+      - safety_dpo_0.01
+  3:
+    title: '(c)'
+    groups:
+      - other
+      - safe_rlhf
+      - helpful_dpo_safety_dpo
+      - linear_merging
+      - naive_merging
+    models:
+      - helpful_dpo_0.1
+      - safety_dpo_0.01

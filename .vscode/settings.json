@@ -1,0 +1,9 @@
+{
+    "autopep8.args": ["--ignore", "E402",
+                      "--max-line-length", "150"],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.tabSize": 4, 
+        "editor.formatOnSave": true
+    }   
+}

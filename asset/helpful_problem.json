@@ -1,0 +1,518 @@
+[
+    {
+        "prompt": "What are the names of some famous actors that started their careers on Broadway?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How did US states get their names?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Hi, my sister and her girlfriends want me to play kickball with them. Can you explain how the game is played, so they don't take advantage of me?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What is some cool music from the 1920s?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How do I wrap a present neatly?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How do I dice without slicing my finger",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Hi, I'm trying to solve a crossword puzzle, but I've never done one of these before. Can you help me out?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Who is Larry Page?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What are different drawers I should have for clothes?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Georgian  dishes. Can you give me a recipe for Kubdari?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "do you think retinoid is effective on removing the acne? because I have a lot of it",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I'm trying to teach myself to have nicer handwriting. Can you help?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Somali  dishes. Can you give me a recipe for Canjeero?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What are the best exercises for beginners?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Do you know why turkeys became the official food of thanksgiving?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I want to get better at networking at work",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Are there any weird Christmas traditions?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Hi, I'm interested in learning to play badminton. Can you explain the game to me?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Do you know why cats always rub up against your legs?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I am going to try to roast a pig at home for Thanksgiving this year. What equipment and techniques do I need to successfully get a pig roasted?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Help me find a good rated electric saw.",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What are some artists I might like if I like Billy Joel?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What type of soil is suitable for cactus?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How do you become an author?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What breed dog is smallest?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What are some species of bears that are now extinct?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What causes the northern lights?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What are some good foods to eat when you are sick? I am looking for something to make my girlfriend to eat.",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Why is kobe beef so damn expensive?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How do I clean my armpits?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How do I detail a car?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I am going to make pumpkin pie for the first time.  Can you help me?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What kind of foods do they eat in Thailand",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What are some good browser alternatives to Chrome?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Who created the Superman cartoon character?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What is Atlantis?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How do I make escargot?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What exactly causes volcanoes to form?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Hi, I have some falafel, but no tahini to put on them. Can you give me a recipe for making tahini?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Should I get my children a nanny? I'm so exhausted.",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "When was Canada colonized?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How can I  use my phone less?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How did mankind discover that the earth was spherical, and why did they initially believe it to be flat?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What is Gremolata?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Why did humans evolve to believe in God?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "what should i build a cabin out of?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Why do a lot of Scientists not believe in God or Satan?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Mauritian dishes. Can you give me a recipe for Mine Frite?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Why can I see the moon during the day?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How do I take care of a wooden table?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What year was the Yamato Battleship built?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Did they ever announce the release date for the new elder scrolls game?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Danish dishes. Can you give me a recipe for Fl\u00e6skesteg?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Please tell me about the romantic relationship between Julius Caesar and Cleopatra.",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Hi, I'm in the mood for a Bloody Mary. Can you give me a recipe for making one?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What are some famous world music artists?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "what are some good ways to spread ashes?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Ukrainian dishes. Can you give me a recipe for Okroshka?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Danish dishes. Can you give me a recipe for Koldsk\u00e5l?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I've read the book \"The Twelve Caesars\" by Suetonius, a few times. I'm curious about the context, of when he wrote.",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Please tell me the history of Walt Disney.",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Can you help me figure out how to sew a button on a shirt?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How did serial killers get away with murder for so long in the 70s and 80s?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How do I make apple juice?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Israeli dishes. Can you give me a recipe Israeli Cheese Bourekas?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How can I make bubble solution?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How to make frosting with crisco",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Tunisian dishes. Can you give me a recipe Tunisian Kammounia?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I want to learn more about airplanes. How were they created?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Can you tell me a very easy to way clean a showerhead?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Please give me a list of planets in our solar system.  I am going to choose which one I want to know more.",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Who was the first lead vocal for the rock band Starship?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I need to get my nephew a birthday gift. I'm thinking of giving him a game for his Nintendo Switch. Can you give me a few options that came out recently?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Best way to defrost a refrigerator freezer?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What are some toys I can buy my kids for imaginative play?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How do I know if my house has a water leak?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Uruguayan dishes. Can you give me a recipe for Vitel ton\u00e9?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Indonesian dishes. Can you give me a recipe for Opor Ayam?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What do the different octane values of gasoline mean?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How can I fix a leaking roof?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I have a hard time falling asleep.  Is there any type of music that can help me fall asleep faster?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What are places to visit in Montgomery, Alabama?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Hi, I've decided to keep a rat as a pet. How do I house, feed, and otherwise care for it?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How do you get water in the desert?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How do I get better at aiming with my slingshot?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Argentinian dishes. Can you give me a recipe for Milanesa de peceto?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I have my grandfather's antique fountain pen and a bottle of ink, but have never done this before. Can you tell me how to refill the fountain pen?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Hi, I'd like to play ice hockey. Can you explain how the game works?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What is kevlar made out of?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Hi, I'd like to learn how to play racquetball. Can you explain the game to me?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What are some  good books to buy for a sci fi fan?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "When were smart phones first made?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Hi, I'd like to learn to bake challah. Can you give me a recipe for that?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Did Facebook corporation change its name?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Hong Kong  dishes. Can you give me a recipe for Tong Sui?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I want to start saving some money by growing my own food. Can I do this during the winter with an indoor garden?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How can I spice things up in the bedroom?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Is human blood ever any color other than red?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Please tell me about pearls.  Where are they found?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What are some herbs I can dry out?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Indonesian dishes. Can you give me a recipe for Tahu Gejrot Cirebon?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What is a scary Halloween costume idea?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Whats the largest star in our galaxy?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I'm trying to draw out a hopscotch game on my driveway. Can you walk me through how to do that?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Can you tell me how to make chocolate chip cookies?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Where is Indonesia?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Hi, I need to find the area of a 20 sided die for my math homework. Can you help me do that?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I'm trying to learn how to install window blinds.",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I want to learn more about becoming a CPA. How long does it take to become a CPA?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I want to talk about \"Smooth\",  a song by Rob Thomas.",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I'd like you to write me a story in the style of Don Delillo, about a bunch of immortal cats living in a New York high-rise co-op.  Go ahead and start a draft!",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Bolivian dishes. Can you give me a recipe for Chola Sandwich?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Is it true that the native Australians were really prisoners of England?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "What color is the sky",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Is there a meaning for Christmas wreaths?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I like to host guests at my home from time to time, and I am gathering  recipes of different dishes and drinks to keep things interesting. I am interested in trying some Lativian  dishes. Can you give me a recipe for Frikade\u013cu zupa?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Hi, I'd like to make my own peanut brittle. Can you give me a recipe and cooking instructions for that?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "I'm trying to stop my neighbour's cat from coming in to my garden and fighting with my cat. Any suggestions on how to do that?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "does the dinosaurs really exist?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "what are some big cat hybrids?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "what is the name of chris tucker first movie",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How long does it take our eyes to fully adapt to darkness?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Has there been any news regarding a potential release date for Starcraft 3?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "How is oil turned into gasoline?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Can you give any tips on how to cook a juicy, medium-rare steak?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "When was hip hop invented?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Hi, I recently inherited a S&W 1006 and I don't even know how to load it. Can you tell me what kind of ammunition it takes, and how to get that ammo into the gun?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "My friend's dog just died and they're really sad. How do I comfort them?",
+        "category": "alpaca_eval_helpful_base"
+    },
+    {
+        "prompt": "Is the US border open to Canada?",
+        "category": "alpaca_eval_helpful_base"
+    }
+]

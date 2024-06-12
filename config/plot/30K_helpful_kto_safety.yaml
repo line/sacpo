@@ -1,0 +1,33 @@
+group_config:
+  other:
+    legend: ''
+    models:
+      - 'alpaca-7b-reproduced'
+      - 'beaver-7b-v1.0'
+    labels:
+      - 'SFT'
+      - 'Safe RLHF'
+    color: 'black'
+    marker: 'X'
+  one_step:
+    legend: 'One-step alignment'
+    models:
+      - 'helpful_kto_0.1'
+    labels:
+      - 'KTO (H)'
+    color: 'blue'
+    marker: 'o'
+  helpful_kto_safety_dpo:
+    legend: 'SACPO: KTO (H) -> DPO (S)'
+    models:
+      - 'helpful_kto_safety_dpo_0.1'
+      - 'helpful_kto_safety_dpo_0.05'
+      - 'helpful_kto_safety_dpo_0.025'
+      - 'helpful_kto_safety_dpo_0.01'
+    labels:
+      - '0.1'
+      - '0.05'
+      - '0.025'
+      - '0.01'
+    color: 'olive'
+    marker: '<'

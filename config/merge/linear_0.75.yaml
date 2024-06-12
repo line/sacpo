@@ -1,0 +1,9 @@
+models:
+  - model: output/30K_helpful_dpo_safety/helpful_dpo_0.1
+    parameters:
+      weight: 0.25
+  - model: output/30K_helpful_dpo_safety/helpful_dpo_safety_dpo_0.01
+    parameters:
+      weight: 0.75
+merge_method: linear
+dtype: bfloat16

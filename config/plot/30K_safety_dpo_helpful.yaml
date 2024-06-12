@@ -1,0 +1,33 @@
+group_config:
+  other:
+    legend: ''
+    models:
+      - 'alpaca-7b-reproduced'
+      - 'beaver-7b-v1.0'
+    labels:
+      - 'SFT'
+      - 'Safe RLHF'
+    color: 'black'
+    marker: 'X'
+  one_step:
+    legend: 'One-step alignment'
+    models:
+      - 'safety_dpo_0.01'
+    labels:
+      - 'DPO (S)'
+    color: 'blue'
+    marker: 'o'
+  safety_dpo_helpful_dpo:
+    legend: 'SACPO: DPO (S) -> DPO (H)'
+    models:
+      - 'safety_dpo_helpful_dpo_0.1'
+      - 'safety_dpo_helpful_dpo_0.05'
+      - 'safety_dpo_helpful_dpo_0.025'
+      - 'safety_dpo_helpful_dpo_0.01'
+    labels:
+      - '0.1'
+      - '0.05'
+      - '0.025'
+      - '0.01'
+    color: 'teal'
+    marker: '^'
