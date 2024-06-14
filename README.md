@@ -3,7 +3,7 @@
     <img src="artifacts/eye_catch.png" alt="drawing" width="400"/>
 </p>
 
-This repository provides the necessary code to replicate the experiments detailed in our paper, "Stepwise Alignment for Constrained Language Model Policy Optimization". In these experiments, we utilized [TRL](https://github.com/huggingface/trl/tree/main) for implementing the alignment methods `DPO` and `KTO`, and [mergekit](https://github.com/arcee-ai/mergekit/tree/main) for `model merging`. The evaluation question lists `asset/helpful_problem.json` and `asset/safety_problem.json` were sourced from the [alpaca_eval dataset](https://huggingface.co/datasets/tatsu-lab/alpaca_eval/raw/main/alpaca_eval.json) and [safe-rlhf](https://github.com/PKU-Alignment/safe-rlhf/blob/main/safe_rlhf/evaluate/gpt4/problem.json), respectively.
+This repository provides the necessary code to replicate the experiments detailed in our paper, [Stepwise Alignment for Constrained Language Model Policy Optimization](https://arxiv.org/abs/2404.11049). In these experiments, we utilized [TRL](https://github.com/huggingface/trl/tree/main) for implementing the alignment methods `DPO` and `KTO`, and [mergekit](https://github.com/arcee-ai/mergekit/tree/main) for `model merging`. The evaluation question lists `asset/helpful_problem.json` and `asset/safety_problem.json` were sourced from the [alpaca_eval dataset](https://huggingface.co/datasets/tatsu-lab/alpaca_eval/raw/main/alpaca_eval.json) and [safe-rlhf](https://github.com/PKU-Alignment/safe-rlhf/blob/main/safe_rlhf/evaluate/gpt4/problem.json), respectively.
 
 ## Getting Started
 ### Setting Up
@@ -122,7 +122,7 @@ sh script/evaluate/pku_helpful\(dpo\)_safety_merge_eval.sh evaluate_base
 Generation and evaluation results will be saved in `output/eval`.
 
 ## Compute score and plot results
-To compute the win rates (from above GPT-4 evaluation) and plot the main figure in our paper:
+To compute the win rates (from the above GPT-4 evaluation) and plot the main figure in our paper:
 
 ```bash
 sh script/evaluate/plot_win_rates.sh
@@ -148,7 +148,7 @@ If SACPO or this repository is useful in your research, please use the following
 ```
 @article{wachi2024stepwise,
   title={Stepwise Alignment for Constrained Language Model Policy Optimization},
-  author={Wachi, Akifumi and Tran, Thien Q and Sato, Rei and Tanabe, Takumi and Akimoto, Yohei},
+  author={Wachi, Akifumi and Tran, Thien Q. and Sato, Rei and Tanabe, Takumi and Akimoto, Youhei},
   journal={arXiv preprint arXiv:2404.11049},
   year={2024}
 }
@@ -156,4 +156,5 @@ If SACPO or this repository is useful in your research, please use the following
 
 ## License
 [Apache License 2.0](LICENSE)
-Additionally, this repository contains third-party software. Refer [NOTICE.md](NOTICE.md) for more details and follow the terms and conditions of their use.
+
+Additionally, this repository contains third-party software. Refer to [NOTICE.md](NOTICE.md) for more details and follow the terms and conditions of their use.
