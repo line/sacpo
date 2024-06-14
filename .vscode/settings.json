@@ -3,7 +3,9 @@
                       "--max-line-length", "150"],
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8",
-        "editor.tabSize": 4, 
-        "editor.formatOnSave": true
-    }   
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.wordWrap": "on",
+        "editor.suggestSelection": "first"
+    }
 }
