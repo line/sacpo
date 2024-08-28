@@ -1,4 +1,6 @@
 # SACPO: Stepwise Alignment for Constrained Policy Optimization
+📚 [Paper](https://arxiv.org/abs/2404.11049) |  🤗 [Models (SACPO)](https://huggingface.co/line-corporation/sacpo) | 🤗 [Models (P-SACPO)](https://huggingface.co/line-corporation/p-sacpo)
+
 <p align="center">
     <img src="artifacts/eye_catch.png" alt="drawing" width="400"/>
 </p>
