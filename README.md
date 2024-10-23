@@ -1,11 +1,15 @@
 # SACPO: Stepwise Alignment for Constrained Policy Optimization
-📚 [Paper](https://arxiv.org/abs/2404.11049) |  🤗 [Models (SACPO)](https://huggingface.co/line-corporation/sacpo) | 🤗 [Models (P-SACPO)](https://huggingface.co/line-corporation/p-sacpo)
+[![Conference](https://img.shields.io/badge/NeurIPS-Accepted-success)](https://proceedings.neurips.cc/paper/2021/hash/adf7e293599134777339fdc40ddfa818-Abstract.html)
+[![Arxiv](http://img.shields.io/badge/arxiv-2404.11049-B31B1B.svg)](https://arxiv.org/abs/2404.11049)
 
 <p align="center">
     <img src="artifacts/eye_catch.png" alt="drawing" width="400"/>
 </p>
 
-This repository provides the necessary code to replicate the experiments detailed in our paper, [Stepwise Alignment for Constrained Language Model Policy Optimization](https://arxiv.org/abs/2404.11049). In these experiments, we utilized [TRL](https://github.com/huggingface/trl/tree/main) for implementing the alignment methods `DPO` and `KTO`, and [mergekit](https://github.com/arcee-ai/mergekit/tree/main) for `model merging`. The evaluation question lists `asset/helpful_problem.json` and `asset/safety_problem.json` were sourced from the [alpaca_eval dataset](https://huggingface.co/datasets/tatsu-lab/alpaca_eval/raw/main/alpaca_eval.json) and [safe-rlhf](https://github.com/PKU-Alignment/safe-rlhf/blob/main/safe_rlhf/evaluate/gpt4/problem.json), respectively.
+This repository provides the necessary code to replicate the experiments detailed in our NeurIPS-24 paper, [Stepwise Alignment for Constrained Language Model Policy Optimization](https://arxiv.org/abs/2404.11049). In these experiments, we utilized [TRL](https://github.com/huggingface/trl/tree/main) for implementing the alignment methods `DPO` and `KTO`, and [mergekit](https://github.com/arcee-ai/mergekit/tree/main) for `model merging`. The evaluation question lists `asset/helpful_problem.json` and `asset/safety_problem.json` were sourced from the [alpaca_eval dataset](https://huggingface.co/datasets/tatsu-lab/alpaca_eval/raw/main/alpaca_eval.json) and [safe-rlhf](https://github.com/PKU-Alignment/safe-rlhf/blob/main/safe_rlhf/evaluate/gpt4/problem.json), respectively.
+
+## Pretrained Models
+🤗 [Models (SACPO)](https://huggingface.co/line-corporation/sacpo) | 🤗 [Models (P-SACPO)](https://huggingface.co/line-corporation/p-sacpo)
 
 ## Getting Started
 ### Setting Up
@@ -148,11 +152,12 @@ sh script/evaluate/plot_elo_scores.sh
 If SACPO or this repository is useful in your research, please use the following BibTeX entry:
 
 ```
-@article{wachi2024stepwise,
-  title={Stepwise Alignment for Constrained Language Model Policy Optimization},
-  author={Wachi, Akifumi and Tran, Thien Q. and Sato, Rei and Tanabe, Takumi and Akimoto, Youhei},
-  journal={arXiv preprint arXiv:2404.11049},
-  year={2024}
+@inproceedings{
+    wachi2024stepwise,
+    title={Stepwise Alignment for Constrained Language Model Policy Optimization},
+    author={Wachi, Akifumi and Tran, Thien Q. and Sato, Rei and Tanabe, Takumi and Akimoto, Youhei},
+    booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+    year={2024},
 }
 ```
 
