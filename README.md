@@ -1,5 +1,5 @@
 # SACPO: Stepwise Alignment for Constrained Policy Optimization
-[![Conference](https://img.shields.io/badge/NeurIPS-Accepted-success)](https://proceedings.neurips.cc/paper/2021/hash/adf7e293599134777339fdc40ddfa818-Abstract.html)
+[![Conference](https://img.shields.io/badge/NeurIPS-Accepted-success)](https://nips.cc/virtual/2024/poster/94870)
 [![Arxiv](http://img.shields.io/badge/arxiv-2404.11049-B31B1B.svg)](https://arxiv.org/abs/2404.11049)
 
 <p align="center">
@@ -9,7 +9,7 @@
 This repository provides the necessary code to replicate the experiments detailed in our NeurIPS-24 paper, [Stepwise Alignment for Constrained Language Model Policy Optimization](https://arxiv.org/abs/2404.11049). In these experiments, we utilized [TRL](https://github.com/huggingface/trl/tree/main) for implementing the alignment methods `DPO` and `KTO`, and [mergekit](https://github.com/arcee-ai/mergekit/tree/main) for `model merging`. The evaluation question lists `asset/helpful_problem.json` and `asset/safety_problem.json` were sourced from the [alpaca_eval dataset](https://huggingface.co/datasets/tatsu-lab/alpaca_eval/raw/main/alpaca_eval.json) and [safe-rlhf](https://github.com/PKU-Alignment/safe-rlhf/blob/main/safe_rlhf/evaluate/gpt4/problem.json), respectively.
 
 ## Pretrained Models
-🤗 [Models (SACPO)](https://huggingface.co/line-corporation/sacpo) | 🤗 [Models (P-SACPO)](https://huggingface.co/line-corporation/p-sacpo)
+🤗 [SACPO](https://huggingface.co/line-corporation/sacpo) | 🤗 [P-SACPO](https://huggingface.co/line-corporation/p-sacpo)
 
 ## Getting Started
 ### Setting Up
