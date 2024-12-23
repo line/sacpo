@@ -8,7 +8,7 @@
 
 This repository provides the necessary code to replicate the experiments detailed in our NeurIPS-24 paper, [Stepwise Alignment for Constrained Language Model Policy Optimization](https://arxiv.org/abs/2404.11049). In these experiments, we utilized [TRL](https://github.com/huggingface/trl/tree/main) for implementing the alignment methods `DPO` and `KTO`, and [mergekit](https://github.com/arcee-ai/mergekit/tree/main) for `model merging`. The evaluation question lists `asset/helpful_problem.json` and `asset/safety_problem.json` were sourced from the [alpaca_eval dataset](https://huggingface.co/datasets/tatsu-lab/alpaca_eval/raw/main/alpaca_eval.json) and [safe-rlhf](https://github.com/PKU-Alignment/safe-rlhf/blob/main/safe_rlhf/evaluate/gpt4/problem.json), respectively.
 
-## Pretrained Models
+## Models on HuggingFace
 🤗 [SACPO](https://huggingface.co/line-corporation/sacpo) | 🤗 [P-SACPO](https://huggingface.co/line-corporation/p-sacpo)
 
 ## Getting Started
